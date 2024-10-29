@@ -1,0 +1,20 @@
+@import 'mobile.css';
+
+@media(min-width:1000px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .box1 {
+        grid-area: 1/1/2/3;
+    }
+
+    .box3 {
+        grid-area: 1/4/3/5;
+    }
+
+    .box5 {
+        grid-area: 2/2/2/4;
+    }
+}

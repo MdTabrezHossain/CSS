@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    gap: 0.25em;
+}
+
+.box {
+    min-width: 200px;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: white;
+    padding: 3em;
+    margin: 0.25em;
+    display: grid;
+    place-items: center;
+}
+
+.box1 {
+    background-color: #ba56f7;
+}
+
+.box2 {
+    background-color: #ff6161;
+}
+
+.box3 {
+    background-color: #505cca;
+}
+
+.box4 {
+    background-color: #3da399;
+}
+
+.box5 {
+    background-color: #be3690;
+}
